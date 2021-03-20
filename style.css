@@ -1,0 +1,96 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:14px !important;
+    }
+}
+@media screen and (max-width: 288px) {
+   .customcss{
+        margin-top:3px !important;
+        font-weight: 200 !important;
+        font-size: 8px !important;
+       
+    }
+}
+.collection span{
+    color:red;
+    font-size-adjust:29px ;
+    font-weight: 800;
+    padding-left: 5px;
+}
+.collection h1{
+   
+    
+}
+.collection input{
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color:grey;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    opacity: 0;
+
+}
+.collection .card:hover input{
+    opacity: 1;
+    transition: 1s;
+}
+.collection input:hover{
+    background-color: yellowgreen;
+    transition: 0.5s;
+}
+.parallex{
+    background:url(img/img23.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width:100%;
+}
+.parallex h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.parallex p{
+    font-size:22px;
+}
+.article a{
+    list-style: none;
+    color: black;
+    outline:none;
+}
+.article a:hover{
+    color: yellowgreen;
+    transition: 0.3s;
+}
+.article p{
+    font-size: 21px;
+}
+.article span{
+    color:yellowgreen;
+
+}
+.article small{
+    font-size:15px;
+}
+.contact input{
+    height: 50px;
+    width:100%;
+    outline: none;
+    border:none;
+    color:gray;
+    background-color: white;
+    padding:10px;
+}
+.cfoot{
+    background-color: wheat;
+}

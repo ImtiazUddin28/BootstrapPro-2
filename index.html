@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-2</title>
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--navbar-->
+<section>
+        <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand"
+                href="#"><h1 class="h1 text-info">T-shirt</h1> </a>
+                <a href="#"><img
+                        src="https://png.pngtree.com/png-vector/20191004/ourmid/pngtree-cleaning-t-shirt-icon-isolated-on-abstract-background-png-image_1781461.jpg"
+                        alt=""
+                        width="60px"></a>
+              
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span
+                    class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse"
+                id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav ml-auto font-weight-bold>
+                    <li class= "nav-item">
+                        <a class="nav-link"
+                            href="#">Home
+                            <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li
+                        class="nav-item">
+                        <a class="nav-link"
+                            href="#">Blog</a>
+                    </li>
+                    <li
+                        class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item"
+                                href="#">Action</a>
+                            <a class="dropdown-item"
+                                href="#">Another
+                                action</a>
+                            <div
+                                class="dropdown-divider">
+                            </div>
+                            <a class="dropdown-item"
+                                href="#">Something
+                                else
+                                here</a>
+                        </div>
+                    </li>
+                    <li
+                        class="nav-item">
+                        <a class="nav-link"
+                            href="#">Contact</a>
+                    </li>
+                </ul>
+                <form
+                    class="form-inline my-2 my-lg-0">
+                    <input
+                        class="form-control mr-sm-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search">
+                    <button
+                        class="btn btn-outline-success my-2 my-sm-0"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        </section>
+        <!--Slider-->
+        <section>
+        <div class="container-fluid mt-5">
+            <div id="carouselExampleCaptions"
+                class="carousel slide"
+                data-ride="carousel">
+                <ol
+                    class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions"
+                        data-slide-to="0"
+                        class="active">
+                    </li>
+                    <li data-target="#carouselExampleCaptions"
+                        data-slide-to="1">
+                    </li>
+                    <li data-target="#carouselExampleCaptions"
+                        data-slide-to="2">
+                    </li>
+                </ol>
+                <div
+                    class="carousel-inner">
+                    <div
+                        class="carousel-item active"  data-interval="3000"  >
+                        <img src="img/img12.jpg"
+                            class="d-block w-100 h-50"
+                            alt="...">
+                        <div
+                            class="carousel-caption d-none d-md-block ">
+                            <h2 class="text-danger">Get up to 30% off</h2>
+                            <h5 class="text-success">
+                                New Arrival
+                            </h5>
+                            <button class="btn bg-info mt-3">Shop Now</button>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item"  data-interval="3000">
+                        <img src="img/img14.jpg"
+                            class="d-block w-100 h-25"
+                            alt="...">
+                        <div
+                            class="carousel-caption d-none d-md-block">
+                            <h2 class="text-danger mt-3">Get up to 30% off</h2>
+                            <h5 class="text-success">New Arrival</h5>
+                            <button
+                                class="btn bg-info mt-3">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item"  data-interval="3000">
+                        <img src="img/img15.jpg"
+                            class="d-block w-100 h-50"
+                            alt="...">
+                        <div
+                            class="carousel-caption d-none d-md-block marin ">
+                            <h2 class="text-danger mt-3">Get up to 30% off</h2>
+                            <h5 class="text-success">New Arrival</h5>
+                            <button
+                                class="btn bg-info mt-3">Shop
+                                Now</button>
+                           
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev"
+                    href="#carouselExampleCaptions"
+                    role="button"
+                    data-slide="prev">
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                    <span
+                        class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next"
+                    href="#carouselExampleCaptions"
+                    role="button"
+                    data-slide="next">
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                    <span
+                        class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+      </section>
+      <!--sub section-->
+      <section>
+          
+          <div class="container-fluid py-3 text-white bg-dark border border-warning">
+           
+              <div class="row ">
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                      <div class="row ">
+                          <div class="col-lg-2">
+                              <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjTQkWCqLRVecefrMQqvenpLYK1pnFpqH5pg&usqp=CAU" alt="" width="30px"></span>
+                          </div>
+                          <div class="col-lg-10 ">
+                            <a href="#"> <h5>Return and Exhange</h5></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span><img src="https://freeiconshop.com/wp-content/uploads/edd/gift-flat.png" alt="" width="30px"></span>
+                        </div>
+                        <div class="col-lg-10">
+                            <a href="#"><h5>Receive Gift Cards</h5></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span><img src="https://www.iconfinder.com/data/icons/web-hosting-5/128/11-512.png" alt="" width="30px"></span>
+                        </div>
+                        <div class="col-lg-10">
+                           <a href="#"> <h5>Online Support</h5></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="row">
+                        <input type="email" placeholder="Your Email" class="newEmail">
+                        <button class="btn bg-success ml-1 customcss">SUBSCRIBE</button>
+                    </div>
+                  </div>
+              </div>
+            
+          </div>
+      </section>
+     <section class="collection">
+         <div class="container py-5">
+            <h1 class="text-center text-warning mb-4">New Collection</h1>
+           
+             <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img1.jpg" alt="" class="img-fluid mb-3">
+                        <input type="button" value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small></p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img2.jpg"
+                            alt=""
+                            class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img9.jpg"
+                            alt=""
+                            class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img4.jpg"
+                            alt=""
+                            class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img5.jpg"
+                            alt=""
+                            class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img6.jpg"
+                            alt=""
+                            class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img7.jpg"
+                            alt=""
+                            class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="img/img8.jpg"
+                            alt=""
+                            class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                        <h5>Product Name</h5>
+                        <p><small><del>$24.99</del><span>$12.99</span></small>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+         </div>
+     </section>
+     <section class="parallex py-5">
+         <div class="container pt-5 text-white text-center">
+             <div class="row py-3">
+                 <div class="col-lg-9 text-info mx-auto">
+                     <h1>T-shirt's lookbook</h1>
+                     <p class="py-3">Best watches available on the cheapest prices.
+                         we provide best products in this city.So you 
+                         deal with us undoubtedly.
+                     </p>
+                     <div class="btn2 btn btn-info">Shop Now</div>
+                     <div class="btn3 btn btn-info"> Get Deal</div>
+                 </div>
+
+             </div>
+         </div>
+     </section>
+     <section>
+        <section class="collection">
+            <div
+                class="container py-5">
+                <h1
+                    class="text-center text-warning mb-4">
+                   Featured Pdroducts
+                </h1>
+        
+                <div class="row">
+                    <div
+                        class="col-lg-3">
+                        <div
+                            class="card">
+                            <img src="img/img1.jpg"
+                                alt=""
+                                class="img-fluid mb-3">
+                            <input
+                                type="button"
+                                value="Add to Cart">
+                            <h5>Product
+                                Name
+                            </h5>
+                            <p><small><del>$24.99</del><span>$12.99</span></small>
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3">
+                        <div
+                            class="card">
+                            <img src="img/img1.jpg"
+                                alt=""
+                                class="img-fluid mb-3">
+                            <input
+                                type="button"
+                                value="Add to Cart">
+                            <h5>Product
+                                Name
+                            </h5>
+                            <p><small><del>$24.99</del><span>$12.99</span></small>
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3">
+                        <div
+                            class="card">
+                            <img src="img/img9.jpg"
+                                alt=""
+                                class="img-fluid mb-3">
+                            <input
+                                type="button"
+                                value="Add to Cart">
+                            <h5>Product
+                                Name
+                            </h5>
+                            <p><small><del>$24.99</del><span>$12.99</span></small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/img9.jpg"
+                                alt=""
+                                class="img-fluid mb-3">
+                            <input type="button"
+                                value="Add to Cart">
+                            <h5>Product
+                                Name
+                            </h5>
+                            <p><small><del>$24.99</del><span>$12.99</span></small>
+                            </p>
+                        </div>
+                    </div>
+     </section>
+     <section class="article">
+         <div class="container py-5">
+             <h1 class="text-center">Latest Article</h1>
+             <div class="row py-5">
+                 <div class="col-lg-4">
+                     <div class="card">
+                         <img src="img/img16.jpg" class="img-fluid" alt="">
+                         <p class="pt-3"><a href="#">Does your life lack meaning</a></p>
+                         <small>By Admin / <span>Business</span></small>
+                     </div>
+                 </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="img/img17.jpg"
+                            class="img-fluid"
+                            alt="">
+                        <p class="pt-3"><a
+                                href="#">Does
+                                your life lack
+                                meaning</a>
+                        </p>
+                        <small>By Admin /
+                            <span>Business</span></small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="img/img21.jpg"
+                            class="img-fluid"
+                            alt="">
+                        <p class="pt-3"><a
+                                href="#">Does
+                                your life lack
+                                meaning</a>
+                        </p>
+                        <small>By Admin /
+                            <span>Business</span></small>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+     </section>
+     <section>
+         <div class="contact bg-light pt-5 text-center">
+             <div class="container">
+                 <div class="row py-3">
+                   <div class="col-lg-7 mx-auto">
+                       <input type="email" placeholder="Enter your Email">
+                       <button class="btn btn-success my-5">GET NOTIFIED</button>
+                       <div class="container-fluid bg-info"><p>&#x20AC; This my second
+                        Website </p></div>
+                      
+                   </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+        <!--Practice-Section-->
+        <br>
+        <br>
+        <br>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    
+</body>
+</html>
